@@ -1,0 +1,904 @@
+@charset "utf-8";
+header{
+	background: url(mojing/header.jpg) no-repeat center;
+	min-width: 1000px;
+	max-width: 1920px;
+	height: 173px;
+	margin: 0 auto;
+}
+.text {
+    width: 1200px;
+    margin: 570px auto 0;
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 7px -1px 7px rgba(45,44,44,0.75);
+	opacity: 0;
+	filter: alpha(opacity=0)\9;
+}
+#content{
+    width: 100%;
+    min-height: 200px;
+    overflow: hidden;
+}
+#content .fixedWidth{
+	min-width: 1000px;
+	max-width: 1920px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#content .allWidth{
+	width: 100%;
+	overflow: hidden;
+}
+.section_800{
+    position: relative;
+    height: 800px;
+}
+.container1200 {
+    width: 1100px;
+    height: 100%;
+}
+.container1100 {
+    width: 1100px;
+    height: 100%;
+}
+.orange {
+    color: #f13d13!important;
+}
+/* <<<<< 1 >>>>> */
+#content .area1{
+	height: 900px;
+}
+#content .area1 .img-box1{
+	width: 612px;
+    height: 432px;
+    top: 215px;
+    left: -100px;
+    background: url(mojing/1-1.png);
+}
+#content .area1 .text-box1{
+    width: 510px;
+    height: 400px;
+    top: 215px;
+    right: -20px;
+    padding-top: 20px;
+    color: #474747;
+}
+#content .area1 .text-box1 h1{
+	font-size: 42px;
+}
+#content .area1 .text-box1 h2{
+    font-size: 28px;
+    padding-top: 10px;
+}
+#content .area1 .text-box1 .price{
+    font-size: 20px;
+    padding-top: 20px;
+}
+#content .area1 .text-box1 .buy {
+    border: 2px solid #f13d13;
+    color: #f13d13;
+    display: block;
+    font-size: 26px;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    text-decoration: none;
+    width: 190px;
+}
+#content .area1 .text-box1 .change {
+    color: #2694f1;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 5px;
+    display: block;
+}
+#content .area1 .text-box1 .introright {
+    top: 160px;
+    right: 53px;
+}
+/* <<<<< 2 >>>>> */
+#content .area2{
+	background: url(mojing/2-1.jpg) no-repeat top center;
+	background-attachment: fixed;
+}
+/* <<<<< 3 >>>>> */
+#content .area3{
+	height: 400px;
+}
+#content .text-box357 {
+    color: #20201f;
+    width: 570px;
+    top: 10px;
+    left: 18px;
+}
+#content .titleL{
+    font-size: 28px;
+    margin-top: 45px;
+}
+#content .con-top{
+    font-size: 16px;
+    margin-top: 30px;
+}
+#content .con{
+    font-size: 16px;
+    line-height: 35px;
+}
+#content .list{
+	margin-top: 30px;
+}
+#content .list li{
+	float: left;
+    width: 65px;
+    height: 49px;
+    text-align: center;
+    border: 2px solid #969595;
+    color: #969595;
+    border-radius: 100%;
+    margin-right: 40px;
+    font-size: 14px;
+    padding-top: 16px;
+}
+#content .img-box357 {
+    width: 391px;
+    height: 300px;
+    top: 45px;
+    right: 50px;
+}
+#content .area3 .img-box3 {
+    background: url(mojing/3-1.jpg) no-repeat;
+}
+
+/* <<<<< 4 >>>>> */
+#content .area4{
+	background: url(mojing/4-1.jpg) no-repeat top center;
+	background-attachment: fixed;
+}
+/* <<<<< 5 >>>>> */
+#content .area5{
+	height: 400px;
+}
+#content .area5 .img-box5 {
+    background: url(mojing/5-1.jpg) no-repeat;
+    width: 396px;
+    height: 329px;
+}
+/* <<<<< 6 >>>>> */
+#content .area6{
+	background: url(mojing/6-1.jpg) no-repeat top center;
+	background-attachment: fixed;
+}
+/* <<<<< 7 >>>>> */
+#content .area7{
+	height: 400px;
+}
+#content .area7 .img-box7 {
+    background: url(mojing/7-1.jpg) no-repeat;
+}
+/* <<<<< 8 >>>>> */
+#content .area8{
+	height: 882px;
+	background: url(mojing/8-1.jpg) no-repeat center;
+}
+#content .area8 .container8{
+	margin-top: 200px;
+	text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+#content .area8 .container8 .number{
+    font-size: 260px;
+    color: #eb122c;
+    line-height: 335px;
+    vertical-align: bottom;
+}
+#content .area8 .container8 .icon{
+	font-size: 150px;
+	vertical-align: text-bottom;
+}
+#content .area8 .container8 .animaNub{
+	margin: 0 20px;
+}
+
+#content .area8 .container8 .symbol{
+	font-size: 60px;
+	vertical-align: text-bottom;
+
+}
+#content .area8 .container8 .con1{
+	font-size: 28px;
+}
+#content .area8 .container8 .con2{
+	font-size: 16px;
+	line-height: 35px;
+}
+/* <<<<< 9 >>>>> */
+#content .area9{
+	height: 1075px;
+	background: url(mojing/9-1.jpg) no-repeat center;
+}
+#content .area9 .container9{
+    width: 1266px;
+    height: 70%;
+    margin: 130px auto 0;
+}
+#content .area9 .container9 h3{
+    font-size: 36px;
+    color: #faf9f9;
+    text-align: center;
+}
+#content .area9 .container9 .videoWrap {
+    width: 876px;
+    height: 491px;
+    overflow: hidden;
+    margin: 120px auto 0;
+}
+#content .area9 .container9 .videoWrap .video{
+    width: 700px;
+    height: 320px;
+    overflow: hidden;
+    margin: 60px auto 0;
+}
+#content .area9 .container9 .videoWrap .videoImg{
+	top: 0;
+	left: 0;
+}
+/* <<<<< 10 >>>>> */
+#content .area10{
+	height: 1008px;
+	background: #efefef;
+}
+#content .area10 .container10{
+    width: 1200px;
+    height: 942px;
+    margin-top: 66px;
+    text-align: center;
+}
+#content .area10 .container10 h3{
+	font-size: 36px;
+}
+#content .area10 .container10 .con1{
+    font-size: 28px;
+    color: #20201f;
+    margin-top: 40px;
+}
+#content .area10 .container10 .con2{
+    font-size: 16px;
+    color: #20201f;
+    line-height: 35px;
+}
+#content .area10 .container10 .top{
+    margin-top: 30px;
+}
+.MJ4-compares span {
+    font-size: 30px;
+}
+.MJ4-compares {
+    width: 540px;
+    height: 70px;
+    margin: 0 auto;
+    color: #676767;
+    margin-top: 50px;
+}
+.MJ4-compares-clid {
+    float: left;
+    width: 180px;
+    font-size: 18px;
+}
+.MJ4-compares-z {
+    font-size: 18px;
+    color: #676767;
+    margin-top: 40px;
+}
+.MJ4-compares-z span {
+    font-size: 50px;
+}
+#content .area10 .container10 .product{
+	height: 504px;
+    width: 100%;
+    position: relative;
+    margin-top: 300px;
+}
+
+
+/* <<<<< 11 >>>>> */
+#content .area11{
+	height: 740px;
+}
+#content .area11 .container11{
+	width: 1100px;
+	height: 740px;
+}
+#content .area11 .container11 .topLeft{
+	width: 510px;
+    text-align: left;
+    left: 50px;
+    top: 50px;
+}
+#content .area11 .container11 .topLeft h4{
+    font-size: 36px;
+    margin-top: 135px;
+}
+#content .area11 .container11 .topLeft .con1{
+    font-size: 28px;
+    color: #343433;
+    margin-top: 45px;
+}
+#content .area11 .container11 .topLeft .con2{
+    font-size: 16px;
+    color: #343433;
+    margin-top: 15px;
+}
+#content .area11 .container11 .topLeft .top{
+    margin-top: 25px;
+}
+#content .area11 .container11 .topright{
+	width: 400px;
+	right: 88px;
+}
+
+
+/* <<<<< 12 >>>>> */
+#content .area12{
+	height: 540px;
+	background: #1b1b1b;
+}
+#content .area12 .container12,#content .area13 .container13,#content .area14 .container14,#content .area16 .container16,.container20{
+	width: 1200px;
+    height: 100%;
+}
+#content .area12 .container12 .img-box12{
+	width: 555px;
+    height: 483px;
+    top: 35px;
+    left: 50px;
+    background: url(mojing/12-1.jpg);
+}
+#content .area12 .container12 .text-box12{
+    width: 500px;
+    height: 400px;
+    top: 170px;
+    right: 0;
+    color: #f4f4f2;
+}
+#content .area12 .container12 .text-box12 h3,#content .area13 .container13 .text-box13 h3,#content .area14 .container14 .text-box14 h3,
+.container16 .text-box16 h3{
+	font-size: 28px;
+    letter-spacing: 3px;
+}
+/*  */
+#content .area12 .container12 .text-box12 p,#content .area13 .container13 .text-box13 p,#content .area14 .container14 .text-box14 p,
+.container16 .text-box16 p{
+	font-size: 16px;
+    line-height: 35px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* <<<<< 13 >>>>> */
+#content .area13{
+	height: 540px;
+	background: #e1dfdf;
+}
+#content .area13 .container13 .text-box13{
+    width: 500px;
+    height: 300px;
+    top: 195px;
+    left: 115px;
+}
+#content .area13 .container13 .img-box13{
+    width: 603px;
+    height: 470px;
+    top: 40px;
+    right: 50px;
+    background: url(mojing/13-1.jpg) no-repeat;
+    background-size: 95%;
+}
+
+
+
+
+/* <<<<< 14 >>>>> */
+#content .area14{
+	background: url(mojing/14-1.jpg) bottom no-repeat #000;
+    background-size: 108%;
+    height: 750px;
+}
+#content .area14 .container14 h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 90px;
+}
+#content .area14 .container14{
+	color: #f4f4f2;
+}
+#content .area14 .container14 .text-box14{
+	width: 550px;
+    height: 300px;
+    top: 180px;
+    left: 140px;
+    color: #f4f4f2;
+}
+
+
+
+/* <<<<< 15 >>>>> */
+#content .area15{
+	height: 500px;
+}
+#content .area15 .container15{
+	width: 1100px;
+	height: 100%;
+    margin-top: 26px;
+}
+#content .area15 .container15 .left15{
+    width: 765px;
+    height: 405px;
+    background: url(mojing/15-1.jpg) no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    left: -150px;
+    opacity: 0;
+    left: -800px;
+}
+#content .area15 .container15 .right15{
+	width: 450px;
+	top: 50px;
+	right: 0;
+}
+#content .area15 .container15 .right15 h4{
+	font-size: 28px;
+    color: #20201f;
+    margin-top: 60px;
+}
+#content .area15 .container15 .right15 p{
+	width: 420px;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #20201f;
+}
+
+
+
+/* <<<<< 16 >>>>> */
+#content .area16{
+	height: 540px;
+	background: url(mojing/16-1.jpg) #000 no-repeat bottom right;
+	background-size: 80%;
+}
+#content .area16 .container16 .text-box16{
+	width: 550px;
+    height: 300px;
+    top: 180px;
+    left: 140px;
+    color: #f4f4f2;
+}
+
+
+
+
+/* <<<<< 17 >>>>> */
+#content .area17{
+    height: 693px;
+}
+#content .area17 .container17{
+	width: 1100px;
+	margin-top: 60px;
+	height: 633px;
+}
+#content .area17 .container17 h3{
+    font-size: 36px;
+    text-align: center;
+}
+#content .area17 .container17 .Mj4-c-Symmetric {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: right;
+    padding-right: 400px;
+    top: -15px;
+    right: -272px;
+    z-index: 9;
+    color: #20201f;
+}
+ #content .area17 .container17 .pWrap p {
+    width: 470px;
+    left: 40px;
+    bottom: 80px;
+    font-size: 16px;
+    color: #20201f;
+}
+#content .area17 .container17 .Mj4-c-Innovate {
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: right;
+    top: 170px;
+    left: 110px;
+    z-index: 9;
+    color: #20201f;
+}
+#content .area17 .container17 .productImg {
+    background: url("mojing/17-1.jpg") no-repeat center;
+    width: 493px;
+    height: 495px;
+    margin-top: 58px;
+}
+.yuanWrap{
+	width: 100px;
+    height: 100px;
+    left: 21px;
+    top: 156px;
+}
+.yuanWrap2{
+    width: 100px;
+    height: 100px;
+    left: 248px;
+    top: -21px;
+}
+.yuan-1,.yuan-2,.yuan-3{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: #ccc;
+	border: 1px solid #1da6fa;
+	border-radius: 50%;
+	opacity: 0;
+
+/* 	transform:scale(2,2);
+-moz-transform:scale(2,2); 
+-webkit-transform:scale(2,2); 
+-o-transform:scale(2,2);  */
+
+	animation:beBig 3s infinite;
+	-moz-animation:beBig 3s infinite; /* Firefox */
+	-webkit-animation:beBig 3s infinite; /* Safari and Chrome */
+	-o-animation:beBig 3s infinite; /* Opera */
+}
+.yuan-2{
+	animation-delay:1s;
+	-webkit-animation-delay:1s; /* Safari 和 Chrome */
+}
+.yuan-3{
+	animation-delay:2s;
+	-webkit-animation-delay:2s; /* Safari 和 Chrome */
+}
+@keyframes beBig
+{
+from {transform:scale(.1);opacity: .7;}
+to {transform:scale(1);opacity: 0;}
+}
+
+@-moz-keyframes beBig /* Firefox */
+{
+from {-moz-transform:scale(.1);opacity: .7;}
+to {-moz-transform:scale(1);opacity: 0;}
+}
+
+@-webkit-keyframes beBig /* Safari 和 Chrome */
+{
+from {-webkit-transform:scale(.1);opacity: .7;}
+to {-webkit-transform:scale(1);opacity: 0;}
+}
+
+@-o-keyframes beBig /* Opera */
+{
+from {-o-transform:scale(.1);opacity: .7;}
+to {-o-transform:scale(1);opacity: 0;}
+}
+
+
+
+
+
+
+/* <<<<< 18 >>>>> */
+#content .area18{
+	height: 392px;
+	background: url(mojing/18-1.jpg) no-repeat center;
+}
+#content .area18 .container18{
+    width: 1200px;
+    height: 392px;
+    background:  url(mojing/18-2.png) no-repeat center center;
+}
+#content .area18 .container18 .topCom{
+    font-size: 20px;
+    z-index: 5;
+    top: 30px;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+}
+#content .area18 .container18 .tj{
+    width: 1200px;
+    height: 392px;
+    background:  url(mojing/18-2.png) no-repeat center center;
+}
+.tjMove{
+    animation:tongJu 5s;
+	-moz-animation:tongJu 5s; /* Firefox */
+	-webkit-animation:tongJu 5s; /* Safari and Chrome */
+	-o-animation:tongJu 5s; /* Opera */
+}
+@keyframes tongJu
+{
+	0%{left: -100px;opacity: .3;}
+	20%{left: 0;opacity: 1;}
+	40%{left: 100px;opacity: .3;}
+	60%{left: -50px;opacity: .6;}
+	80%{left: 50px;opacity: .6;}
+	100%{left: 0;opacity: 1;}
+}
+
+@-moz-keyframes tongJu /* Firefox */
+{
+	0%{left: -100px;opacity: .3;}
+	20%{left: 0;opacity: 1;}
+	40%{left: 100px;opacity: .3;}
+	60%{left: -50px;opacity: .6;}
+	80%{left: 50px;opacity: .6;}
+	100%{left: 0;opacity: 1;}
+}
+
+@-webkit-keyframes tongJu /* Safari 和 Chrome */
+{
+	0%{left: -100px;opacity: .3;}
+	20%{left: 0;opacity: 1;}
+	40%{left: 100px;opacity: .3;}
+	60%{left: -50px;opacity: .6;}
+	80%{left: 50px;opacity: .6;}
+	100%{left: 0;opacity: 1;}
+}
+
+@-o-keyframes tongJu /* Opera */
+{
+	0%{left: -100px;opacity: .3;}
+	20%{left: 0;opacity: 1;}
+	40%{left: 100px;opacity: .3;}
+	60%{left: -50px;opacity: .6;}
+	80%{left: 50px;opacity: .6;}
+	100%{left: 0;opacity: 1;}
+}
+
+
+
+
+
+
+/* <<<<< 19 >>>>> */
+#content .area19{
+    height: 793px;
+    background: #efecec;
+}
+#content .area19 .container19{
+	width: 1230px;
+	margin-top: 50px;
+	height: 743px;
+}
+.double.left {
+    margin-right: 15px;
+}
+.double {
+    width: 606px;
+    height: 475px;
+    background: #fff;
+    box-shadow: 5px 6px 9px rgba(0,0,0,0.45);
+    float: left;
+}
+.img1 {
+	width: 606px;
+    height: 319px;
+    background: url(mojing/19-1.jpg) no-repeat center;
+}
+.img2 {
+	width: 606px;
+    height: 319px;
+    background: url(mojing/19-2.jpg) no-repeat center;
+}
+.container19 .conWrap {
+    margin: 25px 60px 0;
+}
+.container19 .conWrap h5 {
+    font-size: 22px;
+    color: #181818;
+}
+.container19 .conWrap p {
+    font-size: 16px;
+    color: #3c3b3a;
+    margin-top: 15px;
+}
+.cover {
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+/* <<<<< 20 >>>>> */
+#content .area20{
+    background: url(mojing/20-1.jpg) center 235px no-repeat #e3e0e0;
+    height: 800px;
+}
+
+#content .area20 .container20 h3 {
+    font-size: 28px;
+    color: #555353;
+    text-align: center;
+    padding-top: 70px;
+}
+#content .area20 .container20 p {
+    font-size: 18px;
+    color: #555353;
+    margin-top: 25px;
+    text-align: center;
+}
+
+
+
+
+/* <<<<< 21 >>>>> */
+#content .area21{
+    background: url(mojing/21-1.jpg) no-repeat bottom center;
+    height: 752px;
+}
+#content .area21 .container21{
+	margin: 80px auto 0;
+    text-align: center;
+}
+#content .area21 .container21 h3{
+	font-size: 36px;
+}
+#content .area21 .container21 p{
+    font-size: 24px;
+    color: #4a484b;
+    margin-top: 25px;
+}
+
+
+
+
+/* <<<<< 22 >>>>> */
+#content .area22{
+    height: 1000px;
+    background: #272626;
+}
+#content .area22 .container22{
+	margin: 80px auto 0;
+    text-align: center;
+    width: 1200px;
+    height: 793px;
+}
+#content .area22 .container22 h3 {
+    font-size: 36px;
+    color: #edebee;
+}
+#content .area22 .container22 p {
+    font-size: 24px;
+    color: #edebee;
+    margin-top: 25px;
+}
+#content .area22 .container22 .sliderWrap {
+    margin-top: 90px;
+}
+#content .area22 .container22 .left {
+    background: url(mojing/22-1.png) no-repeat center;
+    width: 55px;
+    height: 150px;
+    float: left;
+    margin-top: 150px;
+    cursor: pointer;
+}
+#content .area22 .container22 .mid {
+    float: left;
+    width: 740px;
+    height: 600px;
+    overflow: hidden;
+    margin-left: 196px;
+}
+#content .area22 .container22 .mid .midWrap {
+    width: 10000px;
+    text-align: left;
+    left: -740px;
+}
+#content .area22 .container22 .right {
+    background: url(mojing/22-2.png) no-repeat center;
+    width: 55px;
+    height: 150px;
+    float: right;
+    margin-top: 150px;
+    cursor: pointer;
+}
+
+
+/* <<<<< 23 >>>>> */
+#content .area23{
+    height: 850px;
+}
+#content .area23 .container23{
+    width: 1200px;
+    margin: 50px auto 50px;
+    height: 710px;
+}
+#content .area23 .container23 .video {
+    height: 590px;
+    width: 1133px;
+    margin: 0 auto;
+}
+#content .area23 .container23 .con {
+    font-size: 14px;
+    line-height: 40px;
+    color: #3e3e3d;
+    text-align: center;
+    margin-top: 60px \9;
+}
+#video3{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+/* <<<<< 24 >>>>> */
+#content .area24{
+    height: 511px;
+    background: #ededed;
+}
+#content .area24 .container24{
+	width: 1100px;
+	height: 290px;
+    margin: 130px auto 0;
+}
+#content .area24 .container24 .left{
+    width: 545px;
+    float: left;
+}
+#content .area24 .container24 .left .con1 {
+    font-size: 36px;
+    color: #f13d13;
+    cursor: pointer;
+}
+#content .area24 .container24 .left .con2 {
+    font-size: 24px;
+    color: #5b5a5a;
+    margin-top: 30px;
+}
+#content .area24 .container24 .left .con3 {
+    font-size: 28px;
+    color: #f13d13;
+    margin-top: 35px;
+}
+#content .area24 .container24 .left .buyBtn {
+    width: 190px;
+    height: 50px;
+    border: 2px solid #f13d13;
+    display: block;
+    text-align: center;
+    color: #f13d13;
+    line-height: 50px;
+    font-size: 26px;
+    text-decoration: none;
+    margin-top: 30px;
+}
+#content .area24 .container24{
+
+}
+#content .area24 .container24 .right{
+	float: right;
+    width: 441px;
+    height: 283px;
+    background: url(mojing/24-1.jpg) no-repeat;
+}
+footer{
+	background: url(mojing/footer.jpg) no-repeat center;
+	min-width: 1000px;
+	max-width: 1920px;
+	height: 370px;
+	margin: 0 auto;
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- 	<Meta name=Keywords Content="魔镜,魔镜展示页面">
+	<Meta name=Description Content="魔镜简述"> -->
+	<title>魔镜</title>
+</head>
+<link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="mojing.css">
+<script src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript"> 
+/*判断浏览器版本是否过低*/ 
+$(document).ready(function() {
+	var b_name = navigator.appName; 
+	var b_version = navigator.appVersion; 
+	var version = b_version.split(";"); 
+	var trim_version = version[1].replace(/[ ]/g, ""); 
+	if (b_name == "Microsoft Internet Explorer") { 
+		if (trim_version == "MSIE8.0" || trim_version == "MSIE7.0" || trim_version == "MSIE6.0") { 
+			document.write('<div style="color:#5b5a5a;width:100%;height:200px;margin:300px auto;font-size:30px;text-align:center;"><h1>您的浏览器版本过低，请升级浏览器版本后再访问本页！</h1></div>');
+		} 
+	} 
+}); 
+</script> 
+<!--[if gte IE 9]>
+	<script>
+		alert('您使用的是低版本IE浏览器，浏览体验稍有不佳，若想获得更好的浏览体验，请更换其他浏览器！')
+	</script>
+<![endif]-->
+<body>
+	<header></header>
+	<div id="content">
+		<!-- 1 -->
+		<div class="fixedWidth area1 ">
+			<div class="container1200 pr ma">
+				<div class="img-box1 pa"></div>
+				<div class="text-box1 pa">
+					<h1 class="title">XX魔镜4 标准版 Android</h1>
+					<h2>更轻 更薄 更舒适</h2>
+					<p class="price orange">售价:<span style="font-size: 28px;padding: 0 5px;">199</span>元</p>
+					<a href="javascript:void(0);" class="buy">立即购买</a>
+					<p style="color:#5b5a5a;padding-top:7px;letter-spacing:1px">*批量购买请咨询客服*</p>
+					<a href="javascript:void(0);" class="change">切换至iPhone定制版&gt;&gt;</a>
+					<div class="introright pa">
+                        <img title="XX魔镜APP二维码" alt="XX魔镜APP二维码" src="mojing/1-2.png">
+                    </div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 2 -->
+		<div class="fixedWidth section_800 area2">
+			<div class="text">英雄梦、武侠梦 你是否也想自己做主角？</div>
+		</div>
+		<!-- 3 -->
+		<div class="fixedWidth area3 ">
+			<div class="container1100 ma pr">
+				<div class="text-box357 pa">
+					<h3 class="titleL">XX魔镜，私人定制巨幕影院，让你身临其境</h3>
+					<p class="con-top">相当10米内观看470英寸巨幕的震撼效果</p>
+					<p class="con">10000部以上的高清片源，穿越在各种故事之间</p>
+					<p class="con">飞屏，更可以让影片从电脑飞到手机上</p>
+					<ul class="list">
+                            <li>巨幕<br>观影</li>
+                            <li>海量<br>片源</li>
+                            <li>神奇<br>飞屏</li>
+                    </ul>
+				</div>
+				<div class="img-box357 img-box3 pa"></div>
+			</div>
+		</div>
+		<!-- 4 -->
+		<div class="fixedWidth section_800 area4">
+			<div class="text">罗马式建筑风格 奇迹广场上的比萨斜塔 想去吗？</div>
+		</div>
+		<!-- 5 -->
+		<div class="fixedWidth area5">
+			<div class="container1100 ma pr">
+				<div class="text-box357 pa">
+	                        <h3 class="titleL">XX魔镜全景  带你环游世界</h3>
+	                        <p class="con top">跟繁忙说Bye Bye，跟着魔镜，说走就走</p>
+	                        <p class="con">海量优质景点，满足你对世界的好奇</p>
+	                        <p class="con">全景漫游，深度冥想，将心、意、灵完全专注在原始之初</p>
+	                        <ul class="list">
+	                            <li>全景<br>图片</li>
+	                            <li>全景<br>视频</li>
+	                            <li>海量<br>景点</li>
+	                        </ul>
+	            </div>
+	            <div class="img-box357 img-box5 pa"></div>
+            </div>
+		</div>
+		<!-- 6 -->
+		<div class="fixedWidth section_800 area6">
+			<div class="text">丛林枪战，战友倒在你脚下，你是否想要报仇雪恨？</div>
+		</div>
+		<!-- 7 -->
+		<div class="fixedWidth area7">
+			<div class="container1100 ma pr">
+				<div class="text-box357 pa">
+                        <h3 class="titleL">XX魔镜游戏，让你身临其境，尽显男儿本色</h3>
+
+                        <p class="con top">随时随地，想玩就玩，3D立体画面，更爽更刺激</p>
+                        <p class="con">大型VR互动社区《极乐王国》邀你一起撕名牌</p>
+                        <p class="con">目前已收录VR体验类游戏50余款</p>
+                        <ul class="list">
+                            <li>沉浸<br>游戏</li>
+                            <li>VR<br>资源</li>
+                            <li>极乐<br>王国</li>
+                        </ul>
+                </div>
+                <div class="img-box357 img-box7 pa"></div>
+
+			</div>
+		</div>
+		<!-- 8 bigNumber-->
+		<div class="fixedWidth area8">
+			<div class="ma container8">
+                    <p class="number"><span class="icon">+</span><span class="animaNub">0</span><span class="symbol">%</span></p>
+                    <p class="con1">海量内容升级</p>
+                    <p class="con1" style="margin-bottom: 30px;">20000+高清资源</p>
+                    <p class="con2 top">国内最大的VR资源库，每天增加新内容</p>
+                    <p class="con2">海量优质影片资源、高沉浸感游戏和清晰震撼的全景场景供您体验</p>
+                </div>
+		</div>
+		<!-- 9 3d xuan zhuan-->
+		<div class="fixedWidth area9">
+			<div class="ma container9">
+				<h3>戴上魔镜 随时畅享异域空间</h3>
+				<div class="videoWrap j_anima pr">
+                        <div class="video">
+                            <video poster="mojing/9-3.jpg" class="norical" id="norical">
+                                <source type="video/mp4" src="video/changjing.mp4">
+                                <img src="mojing/9-3.jpg" alt="">
+                            </video>
+                        </div>
+                        <img src="mojing/9-2.png" class="videoImg pa">
+                    </div>
+			</div>
+		</div>
+		<!-- 10 轻·薄-->
+		<div class="allWidth area10">
+			<div class="ma container10">
+				<div class="container">
+                    <h3 class="orange">轻·薄</h3>
+                    <p class="con1">主机重量更轻 材质更优</p>
+                    <p class="con2 top">采用强度、韧性更好的热塑型高分子材料-ABS和抗热抗畸变的PC材质</p>
+                    <p class="con2">更轻、更耐用</p>
+                    <div class="MJ4-compares">
+                        <div class="MJ4-compares-clid">Gear VR<br><span class="orange">297</span><b>g</b></div>
+                        <div class="MJ4-compares-clid">XX魔镜III Plus<br><span class="orange">341</span><b>g</b></div>
+                        <div class="MJ4-compares-clid">XX魔镜4<br><span class="orange">265</span><b>g</b></div>
+                    </div>
+                    <p class="MJ4-compares-z">重量减轻了<span class="orange">22</span>%</p>
+                    <div class="product">
+                        <img class="j_material actionCom j_tranShow show" title="XX魔镜4轻薄" alt="XX魔镜4轻薄" width="1200" src="mojing/10-1.jpg">
+
+                    </div>
+                </div>
+
+			</div>
+		</div>
+		<!-- 11 -->
+		<div class="allWidth area11">
+			<div class="container11 ma pr">
+				<div class="topLeft pa">
+                            <h4 class="orange">神工天巧</h4>
+                            <p class="con1">头戴一键安装，拆卸更轻松</p>
+                            <p class="con2 top">采用PC材质，内侧配有高回弹海绵，支撑头部力量</p>
+                            <p class="con2">减少压力，有效缓解佩戴疲劳</p>
+                </div>
+                <div class="topright j_anima pa">
+                    <video poster="" width="450" id="video2">
+                        <source type="video/mp4" src="video/head.mp4">
+                        <img title="XX魔镜4顶视图" alt="XX魔镜4顶视图" src="mojing/11-1.jpg">
+                    </video>
+                </div>
+			</div>
+		</div>
+		<!-- 12 -->
+		<div class="allWidth area12">
+			<div class="container12 ma pr">
+				<div class="img-box12 pa"></div>
+				<div class="text-box12 pa">
+	                	<h3>悬挂式结构</h3>
+	                    <p>结合人体工程学设计，创新出最舒适的悬挂式佩戴<br>方式，完美解决传统头戴前重后轻问题</p>
+	                    <p>减少主机重量对眼部的压力，更自然贴合面部观影<br>更舒适</p>
+	            </div>
+			</div>
+		</div>
+		<!-- 13 -->
+		<div class="allWidth area13">
+			<div class="container13 ma pr">
+				<div class="img-box13 pa"></div>
+				<div class="text-box13 pa">
+                	<h3>旋转式一键调节</h3>
+                    <p>手表式旋钮调节按钮，拔出旋钮进行调节调节更<br>方便，解决传统头戴多次调节及<br>左右调节不均的困扰</p>
+                </div>
+			</div>
+		</div>
+		<!-- 14 -->
+		<div class="allWidth area14">
+			<div class="container14 ma pr">
+				<h2 class="orange">精琢细雕</h2>
+				<div class="text-box14 pa">
+                    <h3>奢华品质</h3>
+                    <p>主机外壳采用，奔驰同款亚光珠光漆，颜值和手感都得到了大大的提升</p>
+                </div>
+			</div>
+		</div>
+		<!-- 15 -->
+		<div class="allWidth area15">
+			<div class="container15 ma pr">
+				<div class="left15 pa"></div>
+				<div class="right15 pa">
+					<h4>产品前盖 镂空设计</h4>
+					<p>增加散热空间，使手机内部及舱内热量发散更快，减少对手机的损耗，温度下降5℃以上</p>
+				</div>
+			</div>
+		</div>
+		<!-- 16 -->
+		<div class="allWidth area16">
+			<div class="container16 ma pr">
+				<div class="text-box16 pa">
+                    <h3>医用级硅胶</h3>
+                    <p>不刺激皮肤，佩戴更舒适</p>
+                  </div>
+			</div>
+		</div>
+		<!-- 17 -->
+		<div class="allWidth area17">
+			<div class="container17 ma pr">
+				<h3 class="orange">至臻至简</h3>
+				<div class="pWrap pr">
+                    	<h4 class="Mj4-c-Symmetric pa">对称式瞳距调节</h4>
+                    	<p class="con1 pa" style="top:22px;left:818px;z-index:9;line-height:30px">瞳距调节调整至魔镜右侧触手可及<br>调节按钮精度更高：58mm-68mm</p>
+                        <div class="productImg ma pr">
+                            <div class="yuanWrap pa">
+                                    <div class="yuan-1"></div>
+                                    <div class="yuan-2"></div>
+                                    <div class="yuan-3"></div>
+                            </div>
+                            <div class="yuanWrap2 pa">
+                                    <div class="yuan-1"></div>
+                                    <div class="yuan-2"></div>
+                                    <div class="yuan-3"></div>
+                            </div>
+                        </div>
+                        <h4 class="Mj4-c-Innovate pa">创新面部结合方式</h4>
+                        <p style="top:200px;left:111px;z-index:9;line-height:27px" class="pa">支持近视眼镜佩戴<br>完美解决物距问题</p>
+                </div>
+
+			</div>
+		</div>
+		<!-- 18 -->
+		<div class="allWidth area18">
+			<div class="container18 ma pr">
+				<p class="topCom pa">瞳距调节效果演示</p>
+				<div class="tj pa"></div>
+			</div>
+		</div>
+		<!-- 19 -->
+		<div class="allWidth area19">
+			<div class="container19 ma">
+				<h2 class="orange" style="text-align:center;font-size:36px;margin-bottom:30px;">匠心独具</h2>
+				<h3 style="font-size:24px;letter-spacing:3px;color:#555353;text-align: center;">图像处理技术升级,还原图像本色</h3>
+
+				<div class="doubleImg clearfix" style="margin-top:45px">
+                        <div class="double left">
+                            <div class="img1">
+                                <div class="cover"></div>
+                            </div>
+                            <div class="conWrap">
+                                <h5>APP反畸变技术</h5>
+                                <p>反畸变技术升级。运用超运算技术，更精确的计算畸变量通过修补及叠加，完美还原图像</p>
+                            </div>
+                        </div>
+                        <div class="double">
+                            <div class="img2">
+                                <div class="cover"></div>
+                            </div>
+                            <div class="conWrap">
+                                <h5>色彩补偿技术</h5>
+                                <p>最新色彩补偿技术，对图像的亮度、颜色进行优化和改善色彩还原以及色彩表现，都得到了极大地增强</p>
+                            </div>
+                        </div>
+                </div>
+
+			</div>
+		</div>
+		<!-- 20 -->
+		<div class="allWidth area20">
+			<div class="container20 ma pr">
+				<h3>纳米级加工工艺</h3>
+				<p>非球面镜片，将边缘模糊图像减少到最低，中心清晰区域更大，图像清晰自然，更完美降低眩晕感</p>
+			</div>
+		</div>
+		<!-- 21 -->
+		<div class="allWidth area21">
+			<div class="container21 ma">
+				<h3 class="orange">飞屏</h3>
+				<p> 让影片从电脑“飞”到手机的神奇技术</p>
+			</div>
+		</div>
+
+
+		<!-- 22 -->
+		<div class="allWidth area22">
+			<div class="container22 ma">
+				<h3>手柄设计</h3>
+				<p> 蓝牙无线连接，操控更简便</p>
+				<div class="sliderWrap clearfix">
+                        <div class="left"></div>
+                        <div class="mid">
+                            <div class="midWrap pr">
+                                <img title="XX魔镜4手柄" alt="XX魔镜4手柄" src="mojing/22-b2.png">
+                                <img title="XX魔镜4手柄" alt="XX魔镜4手柄" src="mojing/22-b1.png">
+                                <img title="XX魔镜4手柄" alt="XX魔镜4手柄" src="mojing/22-b3.png">
+                            </div>
+                        </div>
+                        <div class="right"></div>
+                </div>
+			</div>
+		</div>
+
+
+		<!-- 23 -->
+		<div class="allWidth area23">
+			<div class="container23 ma">
+				<div class="video j_anima">
+                        <video id="video3" poster="mojing/23-1.jpg">
+                            <source type="video/mp4" src="video/analyse.mp4">
+                            <img src="mojing/23-2.jpg" alt="XX魔镜4Android版爆炸图" title="XX魔镜4Android版爆炸图">
+                        </video>
+                </div>
+                <div class="con">
+                        <p>XX魔镜4，选用日本进口的高折射率光学原料<br>
+                            理想非球面镜片设计，减少镜片边缘相差，图像更清晰，自然<br>
+                            镜片隔断400nm以下的有害紫外线，并再吸收400-500nm的高能量蓝光，杜绝有害光对眼睛造成伤害
+                        </p>
+                </div>
+			</div>
+		</div>
+		<!-- 24 -->
+		<div class="allWidth area24">
+			<div class="container24 ma">
+				<div class="left">
+                        <p class="con1 j_canshu">继续查看更多产品参数 &gt;</p>
+                        <p class="con2">深入了解XX魔镜4标准版Android的更多细节</p>
+                        <p class="con3">199元</p>
+                        <a href="javascript:void(0)" class="buyBtn j_gobuy check-login" onclick="to_top();">返回顶部</a>
+                        <p style="color:#5b5a5a;padding-top:7px;letter-spacing:1px">*批量购买请咨询客服*</p>
+                </div>
+                <div class="right"></div>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+</body>
+<script src="mojing.js"></script>
+</html>
